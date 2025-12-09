@@ -1,0 +1,10 @@
+---
+services:
+  - { web: 8085 }
+  - { fix-tcp: 9004 }
+  - { nvfix-tcp: 9005 }
+  - { soap-tcp: 9006 }
+  - { json-tcp: 9007 }
+  - { composite-json-binary-tcp: 9017 }
+  - { amps-any-type-tcp: 9027 }
+  - { amps-any-type-websocket: 9028 }
